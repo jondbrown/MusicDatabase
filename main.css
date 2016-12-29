@@ -1,0 +1,116 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: sans-serif;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+th {
+    50px;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    background-color: #4CAF50;
+    font-size: 20px;
+    font-weight: 400;
+    border-style: none;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.edit {
+    width: 30%;
+    text-align: center;
+}
+
+form {
+    display: inline;
+}
+
+button {
+    background-color:   #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.button {
+    background-color:   #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.formBox{
+    width 40%;
+}
+
+input {
+    width: 20%;
+}
+
+.submitButton {
+    background-color:   #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 110px;
+}
+
+submitButton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

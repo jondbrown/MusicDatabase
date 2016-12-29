@@ -1,0 +1,24 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en"
+                      "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html>
+  <head>
+	<title>Insert Artist</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <h1>Type Artists Information Below</h1>
+	
+	<!-- INSERT FORM -->
+	<div class="formBox">
+		<form method="post" action="insert.php">
+			Artist Name<br> <input type="text" name="name" required><br><br>
+			Country<br> <input type="text" name="country" required><br><br>
+			Year Formed<br> <input type="number" name="year" min="1900" max="3000" required><br><br>
+			<input class="submitButton" type="submit" name="submit">
+		</form>
+	</div>
+	
+	<a href="artists.php">Go Back</a>
+  </body>
+</html>
